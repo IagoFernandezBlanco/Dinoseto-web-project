@@ -1,0 +1,7 @@
+.fondo {
+  background-color: aquamarine;
+}
+
+button:nth-of-type(odd) {
+  background-color: rgb(54, 17, 17);
+}

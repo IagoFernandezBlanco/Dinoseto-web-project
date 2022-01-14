@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="dinodom.js"></script>
+    <script defer src="utils.js"></script>
+    <script defer src="script.js"></script>
+    
+    <title>El DinoDOM</title>
+</head>
+
+<body>
+
+    <header class="container">
+        <h1 id="title" class="titulo">El DinoDOM</h1>
+    </header>
+    <section class="container">
+        <p id ="chiste">
+
+        </p>
+    </section>
+    <section class="container">
+        <div id="dinoseto" class="grid">
+            <!-- Voy a introducir dinámicamente un nodo de tipo <img> con la imagen del dinoseto.png -->
+        </div>
+    </section>
+    <section class="container">
+        <button id="nuevo-chiste" type="button">Chiste</button>
+        <button id="dinoBoton" type="button">Ocultar DinoSeto</button>
+        <button id="pintar">Cielo Azul</button>
+        <button id="nuevo-huevo">Poner Huevo</button>
+        <button id="eclosionar-todos">Eclosionar huevos</button>
+        <button id="cambiar-tiempo">Selecciona cada cuanto tiempo cambia el color</button>
+        <label for="cambiaTexto">Cambia el texto del título</label>
+        <input type="text" id="cambiaTexto">
+        <label for="segundosTexto">Escoge cada cuantod segundos cambia el color del texto</label>
+        <input type="text" id="segundosTexto">
+
+    </section>
+
+
+</body>
+
+</html>
